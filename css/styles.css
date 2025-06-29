@@ -17,10 +17,13 @@ body {
 .link:hover {
     color: #404BBF;
 }
+.link:focus {
+    color: #404BBF;
+}
 .studio:active {
     text-decoration: underline;
 }
-.studio:focus{
+.studio:focus {
     color: #404BBF;
 }
 ul>li {
@@ -39,17 +42,13 @@ ul>li {
 .logostud {
     color: #2E2F42;
 }
-.adres {
+.adres li {
     font-style: normal;
     color: #434455;
 }
-.adres:focus {
-    color: #404BBF;
-}
 .herobaner {
     background-color: #2E2F42;
-    /*width: 1440px;
-    height: 600px;*/
+
 }
 .herobaner-title {
     font-weight: 700;
@@ -134,5 +133,8 @@ ul>li {
     font-size: 12px;
     line-height: 1.5;/*14px*/
     letter-spacing: 0.02em;
+    color: #F4F4FD;
+}
+.footer .logostud {
     color: #F4F4FD;
 }

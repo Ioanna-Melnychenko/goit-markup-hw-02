@@ -12,7 +12,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: /*#434455;*/ #2E2F42;
 }
 .link:hover {
     color: #404BBF;
@@ -42,7 +42,7 @@ ul>li {
 .logostud {
     color: #2E2F42;
 }
-.adres li {
+.adres-mail,.adres-tel  {
     font-style: normal;
     color: #434455;
 }
